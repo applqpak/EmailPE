@@ -1,0 +1,13 @@
+name: EmailPE
+version: 1.0.0
+author: applqpak
+api: [1.0.0]
+main: EmailPE\Main
+commands:
+  email:
+    description: Send An Email In-Game.
+    usage: "/email <to> <subject> < message >"
+    permission: emailpe.command
+permissions:
+  emailpe.command:
+    default: op
